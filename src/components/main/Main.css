@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.bienvenida{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.bienvenida strong{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+}
+.tarjeta:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tarjeta p{
+    text-align: left;
+}
+.tarjeta button{
+    align-self: flex-end;
+    width: 100px;
+    bottom: -5px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.cabecera{
+    background-color: rgb(45, 58, 134);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    Z-index: 10;
+    width: 100%;
+}
+.cabecera h1{
+    margin-left: 15px;
+    color: white;
+}
+.cabecera ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.cabecera ul li{
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+}
